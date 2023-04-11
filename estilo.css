@@ -1,0 +1,65 @@
+*{
+    touch-action: manipulation;
+}
+
+body{
+    background: rgb(107, 107, 241);  
+
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+
+}
+
+section{
+    background: white;
+    border-radius: 50px;
+    padding: 50px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+.button{
+    margin-top: 10px;
+    width: 150px;
+    background: rgb(107, 107, 241);
+    border-radius: 50px;
+    color: #fff;
+    height: 25px;
+
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    *{
+        touch-action: manipulation;
+    }
+
+    section{
+        background: #fff;
+        border-radius: 50px;
+        padding: 30px;
+        width: 80%;
+        height: 300px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .button{
+        margin-top: 10px;
+        width: 70%;
+        background: rgb(107, 107, 241);
+        border-radius: 50px;
+        color: #fff;
+        height: 30px;
+    
+    }
+}
